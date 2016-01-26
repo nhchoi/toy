@@ -4,5 +4,9 @@ function abc() {
 	return md();
 }
 
-echo "===> " . abc();
+function aa() {
+    return 1;
+}
+
+echo "===> " . abc() . aa();
 ?>
