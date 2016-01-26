@@ -7,7 +7,13 @@
  */
 
 function xxx() {
-    return mt_rand(0, 10);
+    $loop = mt_rand(0, 10);
+
+    $ret = 0;
+    for($i = 0; $i <= $loop; $i++) {
+        $ret += (int)mt_rand(0, 10);
+    }
+    return $ret;
 }
 
 
