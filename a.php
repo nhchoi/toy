@@ -4,5 +4,11 @@ function abc() {
 	return md();
 }
 
-echo "===> " . abc();
+function aa() {
+    return 1;
+}
+
+//더 쓸모 없는 주석
+
+echo "===> " . abc() . aa();
 ?>
